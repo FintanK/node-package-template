@@ -13,13 +13,21 @@ Enter your login details. Once you are authorized you will be able to publish mo
 
 > npm publish
 
-This example can be found at my NPM package page (fintanak) on https://www.npmjs.com/package/node-package-template
+You can also build out tests around your functionality
+
+> npm test
+
+This example can be found at my NPM package page (Username: fintanak) on https://www.npmjs.com/package/node-package-template
 
 ## Basic Usage
+
+In a new project you can then download the module as a dependency and add it to your package.json file by running..
+
+> npm install node-package-template --save
+
+You can then use the module in your project e.g.
 
 ```javascript
 var nodePackage = require("node-package-template");
 
-var response = new NodePackage("helloWorld");
-
-response.on("end", console.dir);
+console.log(nodePackage.helloWorld("Hello World!"));
