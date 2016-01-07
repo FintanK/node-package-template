@@ -1,6 +1,6 @@
 {
   "name": "node-package-template",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A basic node package template",
   "main": "main.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "Package",
     "Template"
   ],
+  "readmeFilename": "README.md",
   "author": "Fintan Kearney",
   "license": "MIT",
   "devDependencies": {
