@@ -13,7 +13,7 @@ Enter your login details. Once you are authorized you will be able to publish mo
 
 > npm publish
 
-This example can be found at
+This example can be found at my NPM package page (fintanak) on https://www.npmjs.com/package/node-package-template
 
 ## Basic Usage
 
