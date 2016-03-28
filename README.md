@@ -1,4 +1,4 @@
-# node-package-template
+# node-package-template [![Build Status](https://travis-ci.org/FintanK/node-package-template.svg?branch=master)](https://travis-ci.org/FintanK/node-package-template)
 A simple project in order to create and publish a node package to npmjs.org
 
 ## Publishing a developed plugin
