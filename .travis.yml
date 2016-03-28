@@ -2,4 +2,4 @@ language: node_js
 node_js:
   - "5.1"
 install:
-  - npm install node-package-template --save
+  - npm install
